@@ -273,7 +273,7 @@ def build_server(version):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--version", default="0.1.0")
+    parser.add_argument("--version", default="0.1.1")
     parser.add_argument("--only", default="win,linux,mac,android,server")
     args = parser.parse_args()
     parts = set(args.only.split(","))

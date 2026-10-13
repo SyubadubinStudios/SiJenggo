@@ -28,7 +28,7 @@ namespace SiJenggo.Android;
 public class MainActivity : Activity, ISurfaceHolderCallback
 {
     private const string Tag = "SiJenggo";
-    private const string AssetVersion = "0.1.0";
+    private const string AssetVersion = "0.1.1";
 
     [DllImport("android")]
     private static extern nint ANativeWindow_fromSurface(nint env, nint surface);

@@ -7,7 +7,7 @@
     <AnalysisLevel>latest-recommended</AnalysisLevel>
     <TieredPGO>true</TieredPGO>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Ariana Mischa Fadhila</Authors>
     <Company>Syubadubin Studios</Company>
     <Product>Si Jenggo - Preman Berhati Malaikat</Product>

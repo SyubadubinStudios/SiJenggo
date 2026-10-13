@@ -12,8 +12,8 @@
     <RootNamespace>SiJenggo.Android</RootNamespace>
     <ApplicationId>com.syubadubin.sijenggo</ApplicationId>
     <ApplicationTitle>Si Jenggo</ApplicationTitle>
-    <ApplicationVersion>1</ApplicationVersion>
-    <ApplicationDisplayVersion>0.1.0</ApplicationDisplayVersion>
+    <ApplicationVersion>2</ApplicationVersion>
+    <ApplicationDisplayVersion>0.1.1</ApplicationDisplayVersion>
     <RuntimeIdentifiers>android-arm64;android-x64</RuntimeIdentifiers>
     <IsPackable>false</IsPackable>
     <!-- Analyzer noise that does not fit an Android activity (Java naming, no ConfigureAwait in UI code). -->
