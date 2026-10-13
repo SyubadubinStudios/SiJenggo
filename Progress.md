@@ -23,6 +23,7 @@ _Terakhir diperbarui · Last updated: 2026-10-14_
 | Linux / macOS | 🟡 | `dotnet publish` linux-x64 & osx-arm64 berhasil; belum dijalankan · publishes, not run |
 | Android | 🟡 | APK ter-build (native arm64 + x86_64, semua aset); belum dijalankan di perangkat · builds, not run |
 | iOS | ⏳ | Butuh Mac + Xcode · Needs a Mac |
+| Installer rilis · Release installers | 🟡 | v0.1.0: installer Windows terpasang & game berjalan dari folder instalasi; .deb/.tar.gz, .app macOS (ad-hoc), APK dibuat tetapi belum dipasang di OS masing-masing · Windows installer verified; others built, not installed on their OS |
 
 ## Detail
 
@@ -96,3 +97,4 @@ _Terakhir diperbarui · Last updated: 2026-10-14_
 | 2026-10-14 | Prop/senjata/makanan Rodin, seni 2D, layer ThreeNet, UI Avalonia, relay, dokumentasi, screenshot · Props/weapons/food, 2D art, ThreeNet layer, Avalonia UI, relay, docs, screenshots |
 | 2026-10-14 | M7: rollback, Bahasa Melayu, sweep keseimbangan + penyetelan, 48 suara, klip khas per karakter, sinematik antar-bab & epilog · rollback, Malay, balance sweep, voice, signature clips, cutscenes |
 | 2026-10-14 | M8: publish Linux/macOS, proyek Android (APK ter-build) · Linux/macOS publish, Android head |
+| 2026-10-14 | Rilis v0.1.0: `tools/packaging/build_release.py` (Inno Setup, .deb, tar.gz, .app, APK, relay) · release installers |

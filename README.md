@@ -53,6 +53,22 @@ rendering behind a Three.js-style C# API) and **Avalonia UI**.
 - **Dynamic soundtrack**: funk rock, metal blues, surf rock, tribal percussion, gamelan metal and symphonic
   metal, synthesised at runtime in three stems that mix live with the fight's intensity.
 
+### Download
+
+Installers are on the [Releases](https://github.com/SyubadubinStudios/SiJenggo/releases) page (a GPU with
+DirectX 12, Metal or Vulkan is required):
+
+| Platform | File | How |
+|---|---|---|
+| Windows 10/11 x64 | `SiJenggo-<v>-win-x64-setup.exe` | Run the installer (per user, no admin). Or the `-portable.zip`. |
+| Debian / Ubuntu | `sijenggo_<v>_amd64.deb` | `sudo apt install ./sijenggo_<v>_amd64.deb`, then run `sijenggo` |
+| Other Linux x64 | `SiJenggo-<v>-linux-x64.tar.gz` | Unpack, then `./install.sh` (per user) or run `./SiJenggo` |
+| macOS (Apple silicon / Intel) | `SiJenggo-<v>-macos-arm64.zip` / `-macos-x64.zip` | Unzip, move "Si Jenggo.app" to Applications, right-click > Open the first time (ad-hoc signed, not notarised) |
+| Android 8+ | `SiJenggo-<v>-android.apk` | Allow installing from this source and open the APK (preview: touch controls, Story mode) |
+
+`SiJenggo-Server-<v>-<rid>.zip` is the optional online relay. Installers are built with
+`python tools/packaging/build_release.py` (needs Inno Setup and rcodesign, see the script).
+
 ### Run it
 
 Requirements: .NET 10 SDK and a GPU with DirectX 12, Metal or Vulkan.
@@ -92,6 +108,7 @@ src/SiJenggo.Android       Android head: SurfaceView renderer, touch controls, S
 tests/SiJenggo.Tests       xUnit tests (simulation, rollback, localisation, voice and cutscene data)
 tools/blender              asset pipeline + per-character animation styles (Blender MCP or headless)
 tools/voice                voice-line manifest, ElevenLabs generation and WAV conversion
+tools/packaging            release installers for Windows, Linux, macOS and Android
 tools/SiJenggo.Balance     headless balance sweep
 assets/                    Rodin sources, rigged models, voice lines, extra languages
 ```
@@ -134,6 +151,22 @@ Details: [architecture](docs/en/ARCHITECTURE.md), [gameplay](docs/en/GAMEPLAY.md
   doa Ucup, pamer otot Jenggo, serta intro unik untuk setiap bos.
 - **Musik dinamis**: funk rock, metal blues, surf rock, perkusi tribal, gamelan metal, dan symphonic metal yang
   disintesis saat permainan berjalan dalam tiga lapisan yang dicampur sesuai intensitas pertarungan.
+
+### Unduh
+
+Installer tersedia di halaman [Releases](https://github.com/SyubadubinStudios/SiJenggo/releases) (butuh GPU
+dengan DirectX 12, Metal, atau Vulkan):
+
+| Platform | File | Cara |
+|---|---|---|
+| Windows 10/11 x64 | `SiJenggo-<v>-win-x64-setup.exe` | Jalankan installer (per pengguna, tanpa admin). Atau `-portable.zip`. |
+| Debian / Ubuntu | `sijenggo_<v>_amd64.deb` | `sudo apt install ./sijenggo_<v>_amd64.deb`, lalu jalankan `sijenggo` |
+| Linux x64 lain | `SiJenggo-<v>-linux-x64.tar.gz` | Ekstrak, lalu `./install.sh` (per pengguna) atau jalankan `./SiJenggo` |
+| macOS (Apple silicon / Intel) | `SiJenggo-<v>-macos-arm64.zip` / `-macos-x64.zip` | Ekstrak, pindahkan "Si Jenggo.app" ke Applications, klik kanan > Open saat pertama kali (tanda tangan ad-hoc, belum dinotarisasi) |
+| Android 8+ | `SiJenggo-<v>-android.apk` | Izinkan instalasi dari sumber ini lalu buka APK-nya (pratinjau: kontrol sentuh, mode Cerita) |
+
+`SiJenggo-Server-<v>-<rid>.zip` adalah relay online opsional. Installer dibuat dengan
+`python tools/packaging/build_release.py` (butuh Inno Setup dan rcodesign, lihat skripnya).
 
 ### Menjalankan
 

@@ -22,6 +22,7 @@ dotnet run -c Release --project tools/SiJenggo.Balance          # headless balan
 dotnet build src/SiJenggo.Android -c Release                    # Android APK (not in the slnx; android workload)
 blender --background --factory-startup --python tools/blender/character_styles.py   # re-author signature clips
 python tools/voice/generate.py && python tools/voice/convert.py                     # voice lines (Rodin MCP + ffmpeg)
+python tools/packaging/build_release.py        # installers -> artifacts/release (ISCC + RCODESIGN env vars)
 ```
 
 `global.json` pins SDK 10.0.401 (rollForward latestFeature). ThreeNet needs a DX12/Metal/Vulkan GPU; the
