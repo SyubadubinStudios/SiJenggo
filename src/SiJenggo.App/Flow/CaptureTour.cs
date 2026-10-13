@@ -94,8 +94,12 @@ public sealed class CaptureTour
         _shell.Navigate(new ProgressionScreen(_shell));
         await Shot("03-skills-and-gear");
 
-        _shell.Navigate(new CreditsScreen(_shell));
-        await Shot("04-credits");
+        // Credits roll on their own; jump to the fighters for the screenshot.
+        var credits = new CreditsScreen(_shell);
+        _shell.Navigate(credits);
+        await Task.Delay(600);
+        credits.AdvanceForCapture(900);
+        await Shot("04-credits", 400);
 
         // Chapter 1: story intro, street fight, pause menu, boss.
         var game = Play(GameModeKind.Story, 0);

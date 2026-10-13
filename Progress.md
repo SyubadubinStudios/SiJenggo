@@ -64,6 +64,7 @@ _Terakhir diperbarui · Last updated: 2026-10-14_
 ### Antarmuka · UI
 - ✅ Judul, pilih karakter, tantangan, online (kini dengan pilihan netcode), jurus & perlengkapan, pengaturan, kredit
 - ✅ HUD, jeda + tabel kontrol, layar hasil; letterbox + subtitle sinematik
+- ✅ Kredit bergulir ala mesin sablon (judul "pas register" saat melintas tengah), potret pendekar, daftar bos, musik gamelan metal; tahan Spasi/A untuk mempercepat; juga diputar setelah epilog
 - ✅ Tiga bahasa (ID/EN/MS), pemilih di judul dan pengaturan; kredit studio di judul, kredit, README, dan dokumen
 - ✅ Keyboard 2 pemain + gamepad (ThreeNet `Gamepads`)
 - 🟡 Navigasi menu dengan gamepad: diimplementasikan, belum diuji dengan gamepad fisik

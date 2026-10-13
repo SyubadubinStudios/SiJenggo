@@ -118,30 +118,6 @@ public sealed class SettingsScreen : Screen
 }
 
 /// <summary>Credits, with the studio credit front and centre.</summary>
-public sealed class CreditsScreen : Screen
-{
-    public CreditsScreen(MainWindow shell) : base(shell)
-    {
-        var made = new SablonText(Strings.Get("credit"), 34) { Misregister = 3 };
-        var body = UiKit.Stack(24,
-            Header(Strings.Get("menu.credits"), "SI JENGGO"),
-            made,
-            UiKit.Board(UiKit.Text(Strings.Get("credits.body"), 22)),
-            BackButton(() => Shell.Navigate(new TitleScreen(Shell))));
-        body.Margin = new Thickness(72, 48);
-        body.MaxWidth = 960;
-        body.HorizontalAlignment = HorizontalAlignment.Left;
-        Root.Children.Add(body);
-    }
-
-    protected override bool Back()
-    {
-        Shell.Navigate(new TitleScreen(Shell));
-        return true;
-    }
-}
-
-/// <summary>Per-character progression: level, skill tree, gear and regional style.</summary>
 public sealed class ProgressionScreen : Screen
 {
     private CharacterId _character;
