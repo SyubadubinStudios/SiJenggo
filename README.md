@@ -11,6 +11,8 @@ A 3D side-scrolling beat 'em up set across Indonesia, built on **.NET 10**, **Th
 rendering behind a Three.js-style C# API) and **Avalonia UI**.
 · Beat 'em up 3D side-scrolling berlatar Indonesia, dibangun dengan **.NET 10**, **ThreeNet**, dan **Avalonia UI**.
 
+**⬇ Download / Unduh v0.1.1:** [Windows](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-win-x64-setup.exe) · [Debian/Ubuntu](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/sijenggo_0.1.1_amd64.deb) · [Linux](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-linux-x64.tar.gz) · [macOS Apple silicon](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-macos-arm64.zip) · [macOS Intel](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-macos-x64.zip) · [Android](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-android.apk)
+
 [English](#english) · [Bahasa Indonesia](#bahasa-indonesia) · Docs: [EN](docs/en/README.md) / [ID](docs/id/README.md)
 
 | | |
@@ -55,18 +57,18 @@ rendering behind a Three.js-style C# API) and **Avalonia UI**.
 
 ### Download
 
-Installers are on the [Releases](https://github.com/SyubadubinStudios/SiJenggo/releases) page (a GPU with
-DirectX 12, Metal or Vulkan is required):
+Latest version: **[v0.1.1](https://github.com/SyubadubinStudios/SiJenggo/releases/tag/v0.1.1)** (older builds on the
+[Releases](https://github.com/SyubadubinStudios/SiJenggo/releases) page). A GPU with DirectX 12, Metal or Vulkan is required.
 
 | Platform | File | How |
 |---|---|---|
-| Windows 10/11 x64 | `SiJenggo-<v>-win-x64-setup.exe` | Run the installer (per user, no admin). Or the `-portable.zip`. |
-| Debian / Ubuntu | `sijenggo_<v>_amd64.deb` | `sudo apt install ./sijenggo_<v>_amd64.deb`, then run `sijenggo` |
-| Other Linux x64 | `SiJenggo-<v>-linux-x64.tar.gz` | Unpack, then `./install.sh` (per user) or run `./SiJenggo` |
-| macOS (Apple silicon / Intel) | `SiJenggo-<v>-macos-arm64.zip` / `-macos-x64.zip` | Unzip, move "Si Jenggo.app" to Applications, right-click > Open the first time (ad-hoc signed, not notarised) |
-| Android 8+ | `SiJenggo-<v>-android.apk` | Allow installing from this source and open the APK (preview: touch controls, Story mode) |
+| Windows 10/11 x64 | [`SiJenggo-0.1.1-win-x64-setup.exe`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-win-x64-setup.exe) | Run the installer (per user, no admin). Or the [`SiJenggo-0.1.1-win-x64-portable.zip`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-win-x64-portable.zip). |
+| Debian / Ubuntu | [`sijenggo_0.1.1_amd64.deb`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/sijenggo_0.1.1_amd64.deb) | `sudo apt install ./sijenggo_0.1.1_amd64.deb`, then run `sijenggo` |
+| Other Linux x64 | [`SiJenggo-0.1.1-linux-x64.tar.gz`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-linux-x64.tar.gz) | Unpack, then `./install.sh` (per user) or run `./SiJenggo` |
+| macOS (Apple silicon / Intel) | [`SiJenggo-0.1.1-macos-arm64.zip`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-macos-arm64.zip) / [`SiJenggo-0.1.1-macos-x64.zip`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-macos-x64.zip) | Unzip, move "Si Jenggo.app" to Applications, right-click > Open the first time (ad-hoc signed, not notarised) |
+| Android 8+ | [`SiJenggo-0.1.1-android.apk`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-android.apk) | Allow installing from this source and open the APK (preview: touch controls, Story mode) |
 
-`SiJenggo-Server-<v>-<rid>.zip` is the optional online relay. Installers are built with
+Optional online relay: [win-x64](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-Server-0.1.1-win-x64.zip) · [linux-x64](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-Server-0.1.1-linux-x64.zip) · [osx-arm64](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-Server-0.1.1-osx-arm64.zip). Checksums: [SHA256SUMS.txt](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SHA256SUMS.txt). Installers are built with
 `python tools/packaging/build_release.py` (needs Inno Setup and rcodesign, see the script).
 
 ### Run it
@@ -154,18 +156,18 @@ Details: [architecture](docs/en/ARCHITECTURE.md), [gameplay](docs/en/GAMEPLAY.md
 
 ### Unduh
 
-Installer tersedia di halaman [Releases](https://github.com/SyubadubinStudios/SiJenggo/releases) (butuh GPU
-dengan DirectX 12, Metal, atau Vulkan):
+Versi terbaru: **[v0.1.1](https://github.com/SyubadubinStudios/SiJenggo/releases/tag/v0.1.1)** (build lama di halaman
+[Releases](https://github.com/SyubadubinStudios/SiJenggo/releases)). Butuh GPU dengan DirectX 12, Metal, atau Vulkan.
 
 | Platform | File | Cara |
 |---|---|---|
-| Windows 10/11 x64 | `SiJenggo-<v>-win-x64-setup.exe` | Jalankan installer (per pengguna, tanpa admin). Atau `-portable.zip`. |
-| Debian / Ubuntu | `sijenggo_<v>_amd64.deb` | `sudo apt install ./sijenggo_<v>_amd64.deb`, lalu jalankan `sijenggo` |
-| Linux x64 lain | `SiJenggo-<v>-linux-x64.tar.gz` | Ekstrak, lalu `./install.sh` (per pengguna) atau jalankan `./SiJenggo` |
-| macOS (Apple silicon / Intel) | `SiJenggo-<v>-macos-arm64.zip` / `-macos-x64.zip` | Ekstrak, pindahkan "Si Jenggo.app" ke Applications, klik kanan > Open saat pertama kali (tanda tangan ad-hoc, belum dinotarisasi) |
-| Android 8+ | `SiJenggo-<v>-android.apk` | Izinkan instalasi dari sumber ini lalu buka APK-nya (pratinjau: kontrol sentuh, mode Cerita) |
+| Windows 10/11 x64 | [`SiJenggo-0.1.1-win-x64-setup.exe`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-win-x64-setup.exe) | Jalankan installer (per pengguna, tanpa admin). Atau [`SiJenggo-0.1.1-win-x64-portable.zip`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-win-x64-portable.zip). |
+| Debian / Ubuntu | [`sijenggo_0.1.1_amd64.deb`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/sijenggo_0.1.1_amd64.deb) | `sudo apt install ./sijenggo_0.1.1_amd64.deb`, lalu jalankan `sijenggo` |
+| Linux x64 lain | [`SiJenggo-0.1.1-linux-x64.tar.gz`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-linux-x64.tar.gz) | Ekstrak, lalu `./install.sh` (per pengguna) atau jalankan `./SiJenggo` |
+| macOS (Apple silicon / Intel) | [`SiJenggo-0.1.1-macos-arm64.zip`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-macos-arm64.zip) / [`SiJenggo-0.1.1-macos-x64.zip`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-macos-x64.zip) | Ekstrak, pindahkan "Si Jenggo.app" ke Applications, klik kanan > Open saat pertama kali (tanda tangan ad-hoc, belum dinotarisasi) |
+| Android 8+ | [`SiJenggo-0.1.1-android.apk`](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-0.1.1-android.apk) | Izinkan instalasi dari sumber ini lalu buka APK-nya (pratinjau: kontrol sentuh, mode Cerita) |
 
-`SiJenggo-Server-<v>-<rid>.zip` adalah relay online opsional. Installer dibuat dengan
+Relay online opsional: [win-x64](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-Server-0.1.1-win-x64.zip) · [linux-x64](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-Server-0.1.1-linux-x64.zip) · [osx-arm64](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SiJenggo-Server-0.1.1-osx-arm64.zip). Checksum: [SHA256SUMS.txt](https://github.com/SyubadubinStudios/SiJenggo/releases/download/v0.1.1/SHA256SUMS.txt). Installer dibuat dengan
 `python tools/packaging/build_release.py` (butuh Inno Setup dan rcodesign, lihat skripnya).
 
 ### Menjalankan
