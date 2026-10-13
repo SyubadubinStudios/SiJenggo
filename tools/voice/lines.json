@@ -1,0 +1,260 @@
+{
+ "lang": "id",
+ "lines": [
+  {
+   "key": "boss_BangKodir_intro",
+   "voice": "Clyde",
+   "text": "Jenggo! Lu pikir lu bisa pensiun? Jalanan ini punya gua sekarang!"
+  },
+  {
+   "key": "boss_BangKodir_taunt1",
+   "voice": "Clyde",
+   "text": "Anak-anak! Keroyok dia!"
+  },
+  {
+   "key": "boss_BangKodir_taunt2",
+   "voice": "Clyde",
+   "text": "Gua belum habis!"
+  },
+  {
+   "key": "boss_BangKodir_defeat",
+   "voice": "Clyde",
+   "text": "Ampun, Bang... Garuda Hitam yang nyuruh gua..."
+  },
+  {
+   "key": "boss_KaptenBadai_intro",
+   "voice": "Drew",
+   "text": "Kontainer-kontainer ini isinya rahasia. Dan lu nggak bakal keluar hidup-hidup buat cerita."
+  },
+  {
+   "key": "boss_KaptenBadai_taunt1",
+   "voice": "Drew",
+   "text": "Turunkan muatannya!"
+  },
+  {
+   "key": "boss_KaptenBadai_taunt2",
+   "voice": "Drew",
+   "text": "Badai belum reda!"
+  },
+  {
+   "key": "boss_KaptenBadai_defeat",
+   "voice": "Drew",
+   "text": "Ombak... sudah berbalik..."
+  },
+  {
+   "key": "boss_NyiAnginLaut_intro",
+   "voice": "Arabella",
+   "text": "Laut selatan tidak suka tamu yang berisik."
+  },
+  {
+   "key": "boss_NyiAnginLaut_taunt1",
+   "voice": "Arabella",
+   "text": "Rasakan murka langit!"
+  },
+  {
+   "key": "boss_NyiAnginLaut_taunt2",
+   "voice": "Arabella",
+   "text": "Ombak, telan mereka!"
+  },
+  {
+   "key": "boss_NyiAnginLaut_defeat",
+   "voice": "Arabella",
+   "text": "Angin... meninggalkanku..."
+  },
+  {
+   "key": "boss_RajaPenebang_intro",
+   "voice": "Bradford",
+   "text": "Setiap pohon di sini ada harganya. Termasuk nyawamu."
+  },
+  {
+   "key": "boss_RajaPenebang_taunt1",
+   "voice": "Bradford",
+   "text": "Tebang semuanya!"
+  },
+  {
+   "key": "boss_RajaPenebang_taunt2",
+   "voice": "Bradford",
+   "text": "Gergajiku belum tumpul!"
+  },
+  {
+   "key": "boss_RajaPenebang_defeat",
+   "voice": "Bradford",
+   "text": "Hutan... membalas..."
+  },
+  {
+   "key": "boss_JagalMerapi_intro",
+   "voice": "Dave",
+   "text": "Di sini panasnya bisa melelehkan besi. Kamu cuma daging."
+  },
+  {
+   "key": "boss_JagalMerapi_taunt1",
+   "voice": "Dave",
+   "text": "Gunung ini bangun!"
+  },
+  {
+   "key": "boss_JagalMerapi_taunt2",
+   "voice": "Dave",
+   "text": "Terbakar kalian semua!"
+  },
+  {
+   "key": "boss_JagalMerapi_defeat",
+   "voice": "Dave",
+   "text": "Lahar... dingin..."
+  },
+  {
+   "key": "boss_PatihAbadi_intro",
+   "voice": "Reginald",
+   "text": "Seribu tahun aku menjaga candi ini. Garuda Hitam membangunkanku. Kau akan menidurkanku?"
+  },
+  {
+   "key": "boss_PatihAbadi_taunt1",
+   "voice": "Reginald",
+   "text": "Bayanganku, bangkitlah!"
+  },
+  {
+   "key": "boss_PatihAbadi_taunt2",
+   "voice": "Reginald",
+   "text": "Pusaka ini tidak akan jatuh!"
+  },
+  {
+   "key": "boss_PatihAbadi_defeat",
+   "voice": "Reginald",
+   "text": "Akhirnya... aku boleh beristirahat. Pergilah, ksatria."
+  },
+  {
+   "key": "boss_JenderalGaruda_intro",
+   "voice": "James",
+   "text": "Preman kampung sampai juga di puncak menaraku. Mari kita lihat, siapa yang benar-benar menguasai negeri ini."
+  },
+  {
+   "key": "boss_JenderalGaruda_taunt1",
+   "voice": "James",
+   "text": "Pasukan udara, serang!"
+  },
+  {
+   "key": "boss_JenderalGaruda_taunt2",
+   "voice": "James",
+   "text": "Sayap Garuda takkan patah!"
+  },
+  {
+   "key": "boss_JenderalGaruda_defeat",
+   "voice": "James",
+   "text": "Tidak mungkin... dikalahkan... rakyat jelata..."
+  },
+  {
+   "key": "player_Jenggo_ultimate",
+   "voice": "Austin",
+   "text": "Ini buat rakyat kecil!"
+  },
+  {
+   "key": "player_Jenggo_special",
+   "voice": "Austin",
+   "text": "Rasain!"
+  },
+  {
+   "key": "player_Jenggo_revive",
+   "voice": "Austin",
+   "text": "Gua belum tamat!"
+  },
+  {
+   "key": "player_Jenggo_down",
+   "voice": "Austin",
+   "text": "Aduh... tolongin gua!"
+  },
+  {
+   "key": "player_Jenggo_victory",
+   "voice": "Austin",
+   "text": "Jalanan ini aman lagi. Ayo pulang, makan nasi padang."
+  },
+  {
+   "key": "player_Bima_ultimate",
+   "voice": "Fin",
+   "text": "Jurus pamungkas, Harimau Silat!"
+  },
+  {
+   "key": "player_Bima_special",
+   "voice": "Fin",
+   "text": "Hiyaa!"
+  },
+  {
+   "key": "player_Bima_revive",
+   "voice": "Fin",
+   "text": "Terima kasih, kawan!"
+  },
+  {
+   "key": "player_Bima_down",
+   "voice": "Fin",
+   "text": "Aku... butuh bantuan!"
+  },
+  {
+   "key": "player_Bima_victory",
+   "voice": "Fin",
+   "text": "Silat bukan buat gaya, tapi buat membela."
+  },
+  {
+   "key": "player_Rani_ultimate",
+   "voice": "Sarah",
+   "text": "Target terkunci. Selesai!"
+  },
+  {
+   "key": "player_Rani_special",
+   "voice": "Sarah",
+   "text": "Kena kamu."
+  },
+  {
+   "key": "player_Rani_revive",
+   "voice": "Sarah",
+   "text": "Oke, aku kembali."
+  },
+  {
+   "key": "player_Rani_down",
+   "voice": "Sarah",
+   "text": "Agen tumbang, butuh bantuan!"
+  },
+  {
+   "key": "player_Rani_victory",
+   "voice": "Sarah",
+   "text": "Misi selesai. Laporan menyusul."
+  },
+  {
+   "key": "player_Ucup_ultimate",
+   "voice": "Mark",
+   "text": "Dengarkan ceramah saya baik-baik!"
+  },
+  {
+   "key": "player_Ucup_special",
+   "voice": "Mark",
+   "text": "Astaghfirullah!"
+  },
+  {
+   "key": "player_Ucup_revive",
+   "voice": "Mark",
+   "text": "Alhamdulillah, masih dikasih napas."
+  },
+  {
+   "key": "player_Ucup_down",
+   "voice": "Mark",
+   "text": "Ya Allah... tolong saya..."
+  },
+  {
+   "key": "player_Ucup_victory",
+   "voice": "Mark",
+   "text": "Sudah, sudah. Mari kita berdamai."
+  }
+ ],
+ "fallbacks": {
+  "male": [
+   "Clyde",
+   "Dave",
+   "James",
+   "Fin",
+   "Drew"
+  ],
+  "female": [
+   "Sarah",
+   "Aria",
+   "Jane",
+   "Alexandra"
+  ]
+ }
+}

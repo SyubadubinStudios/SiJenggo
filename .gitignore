@@ -426,3 +426,12 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# ── Si Jenggo ──
+# Raw Rodin output (~370 MB): regenerate with the Rodin MCP or keep it outside Git / in LFS.
+# The game only needs assets/models; the small voice MP3 sources in assets/source/voice stay tracked.
+assets/source/rodin/
+# Per-user Claude Code settings
+.claude/settings.local.json
+TestResults/
+artifacts/

@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SiJenggo.Core/SiJenggo.Core.csproj" />
+    <Project Path="src/SiJenggo.Game/SiJenggo.Game.csproj" />
+    <Project Path="src/SiJenggo.Presentation/SiJenggo.Presentation.csproj" />
+    <Project Path="src/SiJenggo.App/SiJenggo.App.csproj" />
+    <Project Path="src/SiJenggo.Server/SiJenggo.Server.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SiJenggo.Tests/SiJenggo.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/SiJenggo.Balance/SiJenggo.Balance.csproj" />
+  </Folder>
+</Solution>

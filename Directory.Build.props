@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <TieredPGO>true</TieredPGO>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Version>0.1.0</Version>
+    <Authors>Ariana Mischa Fadhila</Authors>
+    <Company>Syubadubin Studios</Company>
+    <Product>Si Jenggo - Preman Berhati Malaikat</Product>
+    <Copyright>Dibuat oleh Ariana Mischa Fadhila dari Syubadubin Studios</Copyright>
+    <!-- Noise from analyzers that do not fit a game codebase (public fields on hot structs, etc.) -->
+    <NoWarn>$(NoWarn);CA1051;CA1002;CA1819;CA1031;CA1062;CA1305;CA1307;CA1310;CA1716;CA1707;CA1711;CA1720;CA1724;CA1815;CA1000;CA2225;CA1034;CA1303;CA1822;CA1805;CA5394;CA1028;CA1008;CA1027;CA1056;CA1054;CA1063;CA1816;CA2213;CA1001;CA1849;CA1859;CA1852;CA1812;CA1043;CA1814;CA1508</NoWarn>
+  </PropertyGroup>
+</Project>

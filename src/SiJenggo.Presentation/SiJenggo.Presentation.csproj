@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>SiJenggo.Presentation</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ThreeNet" Version="0.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SiJenggo.Game\SiJenggo.Game.csproj" />
+  </ItemGroup>
+</Project>

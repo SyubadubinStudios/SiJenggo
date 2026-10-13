@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <NoWarn>$(NoWarn);CA1515;CA1707;CA2007</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SiJenggo.Core\SiJenggo.Core.csproj" />
+    <ProjectReference Include="..\..\src\SiJenggo.Game\SiJenggo.Game.csproj" />
+    <!-- Only GPU-free parts of the presentation (voice decoding, cutscene scripts) are tested. -->
+    <ProjectReference Include="..\..\src\SiJenggo.Presentation\SiJenggo.Presentation.csproj" />
+  </ItemGroup>
+</Project>

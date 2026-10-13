@@ -1,0 +1,139 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <!--
+    Si Jenggo design tokens.
+    The look borrows from Jakarta's street vernacular: hand-painted warung signs and the cheap
+    two-colour screen printing (sablon) on angkot stickers, where the colour plates never quite line up.
+    Signature: display type printed in three misregistered plates (see Ui/SablonText).
+  -->
+  <Styles.Resources>
+    <!-- Aspal malam: night asphalt -->
+    <Color x:Key="Aspal">#16130F</Color>
+    <Color x:Key="AspalTerang">#221C16</Color>
+    <!-- Kunyit: turmeric / angkot yellow, the primary accent -->
+    <Color x:Key="Kunyit">#F2B705</Color>
+    <!-- Cabai: chili red, health loss and rage -->
+    <Color x:Key="Cabai">#D7261E</Color>
+    <!-- Toska pasar: market-stall teal, semangat and secondary print plate -->
+    <Color x:Key="Toska">#1FA39A</Color>
+    <!-- Kapur: lime-wash white, body text -->
+    <Color x:Key="Kapur">#EFE6D2</Color>
+    <!-- Soga: batik soga brown, panel edges -->
+    <Color x:Key="Soga">#6B3E26</Color>
+
+    <SolidColorBrush x:Key="AspalBrush" Color="{StaticResource Aspal}" />
+    <SolidColorBrush x:Key="PanelBrush" Color="#E6221C16" />
+    <SolidColorBrush x:Key="KunyitBrush" Color="{StaticResource Kunyit}" />
+    <SolidColorBrush x:Key="CabaiBrush" Color="{StaticResource Cabai}" />
+    <SolidColorBrush x:Key="ToskaBrush" Color="{StaticResource Toska}" />
+    <SolidColorBrush x:Key="KapurBrush" Color="{StaticResource Kapur}" />
+    <SolidColorBrush x:Key="KapurDimBrush" Color="#99EFE6D2" />
+    <SolidColorBrush x:Key="SogaBrush" Color="{StaticResource Soga}" />
+
+    <FontFamily x:Key="DisplayFont">avares://SiJenggo/Assets/Fonts#Bungee</FontFamily>
+    <FontFamily x:Key="BodyFont">avares://SiJenggo/Assets/Fonts#Barlow Condensed</FontFamily>
+  </Styles.Resources>
+
+  <Style Selector="Window">
+    <Setter Property="Background" Value="{StaticResource AspalBrush}" />
+    <Setter Property="FontFamily" Value="{StaticResource BodyFont}" />
+    <Setter Property="Foreground" Value="{StaticResource KapurBrush}" />
+  </Style>
+
+  <Style Selector="TextBlock">
+    <Setter Property="FontFamily" Value="{StaticResource BodyFont}" />
+    <Setter Property="Foreground" Value="{StaticResource KapurBrush}" />
+  </Style>
+  <Style Selector="TextBlock.display">
+    <Setter Property="FontFamily" Value="{StaticResource DisplayFont}" />
+  </Style>
+  <Style Selector="TextBlock.eyebrow">
+    <Setter Property="FontSize" Value="15" />
+    <Setter Property="FontWeight" Value="SemiBold" />
+    <Setter Property="LetterSpacing" Value="2.5" />
+    <Setter Property="Foreground" Value="{StaticResource KunyitBrush}" />
+  </Style>
+  <Style Selector="TextBlock.body">
+    <Setter Property="FontSize" Value="20" />
+    <Setter Property="FontWeight" Value="Medium" />
+    <Setter Property="TextWrapping" Value="Wrap" />
+    <Setter Property="LineHeight" Value="26" />
+  </Style>
+  <Style Selector="TextBlock.dim">
+    <Setter Property="Foreground" Value="{StaticResource KapurDimBrush}" />
+  </Style>
+
+  <!-- Panels: dark board with a soga edge, like a painted signboard -->
+  <Style Selector="Border.board">
+    <Setter Property="Background" Value="{StaticResource PanelBrush}" />
+    <Setter Property="BorderBrush" Value="{StaticResource SogaBrush}" />
+    <Setter Property="BorderThickness" Value="2" />
+    <Setter Property="CornerRadius" Value="3" />
+    <Setter Property="Padding" Value="22" />
+  </Style>
+
+  <!-- Sticker buttons: flat, slightly tilted, flipping to turmeric when focused -->
+  <Style Selector="Button.sticker">
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="BorderThickness" Value="0" />
+    <Setter Property="Padding" Value="14,6" />
+    <Setter Property="HorizontalAlignment" Value="Left" />
+    <Setter Property="Cursor" Value="Hand" />
+    <Setter Property="FocusAdorner" Value="{x:Null}" />
+    <Setter Property="Transitions">
+      <Transitions>
+        <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.12" />
+      </Transitions>
+    </Setter>
+  </Style>
+  <Style Selector="Button.sticker /template/ ContentPresenter">
+    <Setter Property="Background" Value="Transparent" />
+    <Setter Property="CornerRadius" Value="2" />
+  </Style>
+  <Style Selector="Button.sticker:pointerover /template/ ContentPresenter, Button.sticker:focus-visible /template/ ContentPresenter, Button.sticker:focus /template/ ContentPresenter">
+    <Setter Property="Background" Value="{StaticResource KunyitBrush}" />
+  </Style>
+  <Style Selector="Button.sticker:pressed">
+    <Setter Property="RenderTransform" Value="scale(0.96)" />
+  </Style>
+  <Style Selector="Button.sticker:disabled">
+    <Setter Property="Opacity" Value="0.35" />
+  </Style>
+
+  <!-- Chip buttons for choices (difficulty, chapter, slots) -->
+  <Style Selector="Button.chip">
+    <Setter Property="Background" Value="#22EFE6D2" />
+    <Setter Property="Foreground" Value="{StaticResource KapurBrush}" />
+    <Setter Property="BorderBrush" Value="{StaticResource SogaBrush}" />
+    <Setter Property="BorderThickness" Value="2" />
+    <Setter Property="CornerRadius" Value="2" />
+    <Setter Property="Padding" Value="14,8" />
+    <Setter Property="FontFamily" Value="{StaticResource BodyFont}" />
+    <Setter Property="FontSize" Value="19" />
+    <Setter Property="FontWeight" Value="SemiBold" />
+    <Setter Property="FocusAdorner" Value="{x:Null}" />
+    <Setter Property="Cursor" Value="Hand" />
+  </Style>
+  <Style Selector="Button.chip:pointerover /template/ ContentPresenter, Button.chip:focus /template/ ContentPresenter">
+    <Setter Property="BorderBrush" Value="{StaticResource KunyitBrush}" />
+    <Setter Property="Background" Value="#33F2B705" />
+  </Style>
+  <Style Selector="Button.chip.selected /template/ ContentPresenter">
+    <Setter Property="Background" Value="{StaticResource KunyitBrush}" />
+    <Setter Property="BorderBrush" Value="{StaticResource KunyitBrush}" />
+  </Style>
+  <Style Selector="Button.chip.selected">
+    <Setter Property="Foreground" Value="{StaticResource AspalBrush}" />
+  </Style>
+  <Style Selector="Button.chip:disabled">
+    <Setter Property="Opacity" Value="0.35" />
+  </Style>
+
+  <Style Selector="Slider">
+    <Setter Property="Foreground" Value="{StaticResource KunyitBrush}" />
+  </Style>
+  <Style Selector="TextBox">
+    <Setter Property="FontFamily" Value="{StaticResource BodyFont}" />
+    <Setter Property="FontSize" Value="20" />
+  </Style>
+</Styles>
